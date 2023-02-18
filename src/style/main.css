@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.App {
+    display: flex;
+    padding: 50px;
+}
+
+.App-left {
+    flex: 1;
+}
+
+.App-right {
+    flex: 2;
+}

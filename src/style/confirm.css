@@ -1,0 +1,34 @@
+.confirm{
+    margin-left: 40px;
+
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: #343A46;
+}
+tr:nth-child(even){
+    background-color: #dddddd;
+}
+th, td {
+    padding: 10px;
+}
+.confirm-message{
+    width: 550px;
+    text-align: center;
+}
+.icon{
+    font-size: 20px;
+}
+.icon span{
+    justify-content: space-between;
+}
+.checked{
+    cursor: pointer;
+    color: green;
+}
+.deleted{
+    cursor: pointer;
+    color: red;
+}
